@@ -1,0 +1,7 @@
+Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows. Wikipedia
+License: GPLv2, LGPLv2.1, and others
+Initial release: 7 April 2005; 14 years ago
+Developer(s): Junio Hamano and others
+Stable release: 2.23.0 / 16 August 2019; 20 days ago
+Operating system: POSIX: Linux, Windows, macOS
+Original author: Linus Torvalds
