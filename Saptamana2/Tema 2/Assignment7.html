@@ -9,13 +9,63 @@
 
     <body>
         <h1>HTML vs. HTML5 </h1>
+       <ul>
         <h2>HTML</h2>
-        <p>In HTML there were no specific attributes for article</p>
+        <ul>
+
+        <p>In HTML there were no specific elements for article</p>
+        <p> HTML element <i>acronym</i> was used for abbreviations</p>
+        <acronym>html</acronym>
+        <p>HTML element <i>strike</i> was used for striking text.</p><strike>Strike element used to cross text</strike>
+        <p>HTML element <i>frame</i> used to define one particular window (frame) within a <bdi><frameset></frameset></bdi>
+        but if the defined document type is set to < <code>!DOCTYPE HTML Frameset DTD</code> > it will be recognized</p>
+      </ul>
         
-        <article>
                 <h2>HTML5</h2>
-            <p>HTML5 has specific attribute to define article.</p>
+                <ul>
+                    <li><h4>NEW Semantic/structural elements </h4> </li>
+        <article>
+            <p>HTML5 has specific element to define article.</p>
         </article>
+
+
+        <aside><p>HTML5 has specific element to define offtopic comments from the main article.</p></aside>
+        <abr>HTML5 element <i>abr</i> defines an abbreviation, whilst HTML used <i>acronym</i></abr>
+
+        <p>HTML5 has specific element to isolate a part of text that might be formatted in a <bdi>違う</bdi> (different) direction from
+             other text outside it.</p>
+
+             <s>HTML5 element for strike is <i>s</i></s>
+
+             <p>HTML5 new element <i>canvas</i> allows drawing </p>
+        
+
+             <canvas id="draw"></canvas>
+             <script>
+                    var canvas = document.getElementById("draw");
+                    var ctx = canvas.getContext("2d");
+                    ctx.fillStyle = "#50c878";
+                    ctx.fillRect(5, 5, 80, 80);
+                    </script>
+                   <p>HTML5 element to define <i>time</i> so that machine can read it to offer 
+                    to add birthday reminders or scheduled events </i></p> <time datetime="2019-12-07 00:01">birthday time</time>
+                    <section>HTML5 has an element for <i>section</i> that separates the different parts of a document<wbr> 
+                        it can also have event attributes such as <i>ondrag</i> </section>
+                    <p>HTML5 has a navigation element <i>nav</i> used for important links in the document
+                    <nav>
+                        <a href="https://twitter.com/?lang=en">Twitter</a>|
+                        <a href="https://www.instagram.com/">Instagram</a>|
+                        <a href="https://www.tumblr.com/">Tumblr</a>
+                    </nav>
+                    </p>
+                    <p>HTML5 does not support <i>frame</i> element</p>
+
+
+        
+        </ul>
+    
+
+    </ul>
 
 
         <br>
