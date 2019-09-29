@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tema3_Wantsome</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tema 3 Tema3_Wantsome">
+</head>
+<body>
+    <h1>Formular</h1>
+    <form> <!--Do not forget action attribute for route of sending form-->
+        <div id="numeComplet">
+        <label for="nume"> Nume:
+         <input type="text" name="nume" placeholder="insert name" id="nume" required> <br></label>
+         <label for="prenume"> Prenume: </label>
+        <input type="text"name="prenume" id="prenume" placeholder="insert surname" required> <br>
+        </div
+        >
+        <div id="gender">
+            <label for="gender"> Sex: </label> <br>
+        <input type="radio" name="gender" value="male" id="gender">Male <br>
+        <input type="radio" name="gender" value="female" id="gender"> Female <br>
+            <input type="radio"name="gender"value="other" id="gender">Other <br>
+
+        </div><!--value attribute important because the server understands what it was selected-->
+
+        <div id="age">
+            <label for="age">Varsta: </label>
+        <input type="number" name="age" value="age" id="age" min="18" max="85" placeholder="18">
+        </div>
+
+        <div id="localizare">
+            <label for="country">Tara
+         <input type="text" name="country" value="country"id="country" placeholder="ex. Romania"> </label>
+        <label for="city">Oras: 
+         <input type="text" name="city" value="city" id="city" placeholder="ex. Iasi"></label>
+
+            <label for="address"> Adresa 
+        <input type="address" id="address" name="address" value="address"> </label>
+        <label for="zipcode">Cod postal
+         <input type="number" id="zipcode" value="zipcode" name="zipcode"></label>
+        </div> <!--localizare div closed-->
+        <div id="email">
+                <label for="email"><p>E-mail</p>
+                <input type="email" name="email" id="email" value="email" placeholder="ex. doe@gmail.com"/></label>
+
+        </div>
+
+
+       
+         <br>
+        <div id="mesaj">
+        <p>Introduceti alte comentarii</p>
+
+        <textarea rows="10" cols="70">Mesaj</textarea>
+        </div>
+
+        <div id="fileAttach">
+        <p>Atasati CV <input type="file" id="fileAttach" required> </p><br>
+        </div> <!--End fileAttach div -->
+
+        <div id="finalbottons">
+        <label id="submit">Press to <input type="submit" value="Submit" id="submit"/><br> </label>
+
+        <label id="reset">
+       Press to <input type="reset" value="Reset" id="reset"/></label>
+    </div>
+    </form>
+    <br>
+<a href="ex2.html"> Click here for next exercise </a>
+</body>
+
+</html>
