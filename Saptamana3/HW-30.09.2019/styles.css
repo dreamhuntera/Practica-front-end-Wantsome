@@ -1,0 +1,32 @@
+a {
+    color:red;
+}
+
+.class2{
+    border:1px solid black;
+}
+
+#id{
+    color:green;
+}
+.tangerine {
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    font-feature-settings: destruction;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.turret-font {
+    font-family: 'Turret Road', cursive;
+    font-size: 60px;
+
+}
