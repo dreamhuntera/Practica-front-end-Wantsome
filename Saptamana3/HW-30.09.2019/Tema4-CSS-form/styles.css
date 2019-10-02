@@ -1,0 +1,46 @@
+body {
+    background-color: lightgrey;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em; 
+    margin: 0;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+.box-1{
+    background-color: bisque;
+    color: saddlebrown;
+    border: 5px saddlebrown solid;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.box-1 h1{
+    font-family: 'Notable', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+textarea{
+    background-color: #DCDCDC;
+    background-image: linear-gradient(to right, #D3D3D3 , #778899);
+}
+
+input[type=submit]{
+    font-size: 50px;
+}
+
+input[type=reset]{
+    font-size: 50px;
+    text-align: center;
+}
