@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+
+}
+.container{
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
+
+nav{
+    border-style:solid;
+    border-color: hotpink;
+    float: left;
+    width: 20%;
+    height: 300px;
+    color: red;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    border-style: solid;
+    border-color: yellow;
+    float: right;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    
+    border-style: solid;
+    border-color: green;
+    text-align: center;
+    clear:both;
+
+}
+
+img{
+    border: 10px dashed red;
+    padding: 15px;
+    border-radius: 25px;
+    background-clip: border-box;
+    background-color: grey;
+}
