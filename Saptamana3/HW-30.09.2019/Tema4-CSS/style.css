@@ -49,8 +49,8 @@ input[placeholder="last name"] {
 }
 
 input[type=password] {
-    color: white;
-    <!--display:none;-->
+    color: transparent;
+    /* display:none; */
 }
 
 li:nth-child(odd){
