@@ -1,0 +1,174 @@
+$divWidth: 20%;
+$backgroundColor: grey;
+$textColor: #4e71ba;
+* {
+    // font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Hind', sans-serif;
+    // font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+@mixin rborder{
+    border-image:linearGradient(#f6b73c, #4d9f0c)30;
+}
+@mixin abutton {
+    a {
+        background-color: transparent;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background-color: #585858;
+        color: yellow;
+        border-radius: 15px;
+    }
+}
+
+
+html {
+    height:100%;
+}
+
+body {
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url('galaxy1.jpeg');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: 60%;
+}
+
+.menu {
+    
+    ul {
+    list-style-type: none;
+    color: white;
+    text-align: center;
+
+        li {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+                
+            @include abutton;
+            padding-top: 50px;
+            }
+    }
+}
+
+nav {
+    
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 50px;
+   
+}
+
+
+#leftSide {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    @include abutton;
+    
+}
+
+#floatright {
+    float: right;
+}
+
+.welcome {
+    color: white;
+    text-align: center;
+    // border: solid 2px black;
+    clear: both;
+}
+
+main {
+    border: solid 2px black;
+
+}
+
+section {
+    // border: solid 2px black;
+    height: 60%;
+    width: 100%;
+    
+}
+
+
+
+footer {
+    border: solid 2px black;
+}
+
+ul {
+    list-style: none;
+}
+a.fa.fa-facebook {
+    font-size: 28px;
+    height: 20px;
+    margin: 5px;
+    text-decoration: none;
+    text-align: center;
+    width: 38px;
+    color: #3B5998;
+}
+
+section {
+    background-color: $textColor;
+    }
+    
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    // align-items: center;
+}
+.box {
+    // margin-left: 30px;
+    border-right: solid 4px red;
+    
+    // @include rborder;
+    padding-right: 50px;
+}
+
+.box1, .box2, .box3 {
+    // border: solid 3px green;
+    width: 250px;
+    height: 220px;
+    
+}
+
+article {
+    border: solid 4px maroon;
+    text-align: center;
+    h1 {
+        font-weight: bold;
+        display: inline-block;
+        // font-family: 'Nanum Gothic', sans-serif;
+    }
+}
+.header  {
+    background-color: white;
+    color: $textColor;
+    
+
+}
+
+header, section, main, footer {
+    margin: 0 1.5% 24px 1.5%;
+}
+

@@ -1,0 +1,160 @@
+* {
+  font-family: 'Hind', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: whitesmoke;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("galaxy1.jpeg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu ul {
+  list-style-type: none;
+  color: white;
+  text-align: center;
+}
+
+.menu ul li {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  padding-top: 50px;
+}
+
+.menu ul li a {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  background-color: #585858;
+  color: yellow;
+  border-radius: 15px;
+}
+
+nav {
+  text-align: center;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+#leftSide {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+#leftSide a {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+#leftSide a:hover {
+  background-color: #585858;
+  color: yellow;
+  border-radius: 15px;
+}
+
+#floatright {
+  float: right;
+}
+
+.welcome {
+  color: white;
+  text-align: center;
+  clear: both;
+}
+
+main {
+  border: solid 2px black;
+}
+
+section {
+  height: 60%;
+  width: 100%;
+}
+
+footer {
+  border: solid 2px black;
+}
+
+ul {
+  list-style: none;
+}
+
+a.fa.fa-facebook {
+  font-size: 28px;
+  height: 20px;
+  margin: 5px;
+  text-decoration: none;
+  text-align: center;
+  width: 38px;
+  color: #3B5998;
+}
+
+section {
+  background-color: #4e71ba;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+}
+
+.box {
+  border-right: solid 4px red;
+  padding-right: 50px;
+}
+
+.box1, .box2, .box3 {
+  width: 250px;
+  height: 220px;
+}
+
+article {
+  border: solid 4px maroon;
+  text-align: center;
+}
+
+article h1 {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.header {
+  background-color: white;
+  color: #4e71ba;
+}
+
+header, section, main, footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+/*# sourceMappingURL=style.css.map */
