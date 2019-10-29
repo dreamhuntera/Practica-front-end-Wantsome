@@ -192,3 +192,9 @@ function multiFor() {
 };
 
 console.log(multiFor());
+
+//stream function
+
+function stream(conditionalFn, actionFn) {
+    for(i = 0; i < ; i++)
+}
