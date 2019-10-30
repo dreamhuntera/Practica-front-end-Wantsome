@@ -1,9 +1,10 @@
 //ex1
 function is_string(parameter1){
-    var result = typeof(parameter1);
-    console.log(result);
+    return (typeof(parameter1) === "string");
+   
 }
-is_string('w3school');
+console.log(is_string('w3school'));
+console.log(is_string([1, 2, 4, 0]));
 
 //ex2
 
@@ -22,7 +23,7 @@ console.log(string_to_array("Robin Singh"));
 
 //ex4
 function abbrev_name(str){
-    var result = str.substr(5, 6);
+    var result = str.substr(0, 7) + ".";
     return result;
 }
 console.log(abbrev_name("Robin Singh"));
@@ -95,3 +96,4 @@ function Uncapitalize(txt) {
 
 }
 console.log(Uncapitalize('Js string exercises'));
+
