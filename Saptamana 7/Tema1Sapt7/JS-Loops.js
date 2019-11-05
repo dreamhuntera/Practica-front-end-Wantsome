@@ -18,9 +18,20 @@ function oddEven() {
     }
 };
 
-console.log(oddEven());
+console.log(oddEven(2));
 
 //DE SCRIS SI CU WHILE
+let i = 0;
+function oddEven2() {
+    while (i < 20) {
+        if ((i % 2) === 0) {
+            console.log (i + " este numar par");
+            continue;} 
+            console.log (i + " este numar impar");
+    
+    }
+}
+oddEven2(2);
 
 //ex2
 //scriu named function
@@ -50,3 +61,23 @@ console.log(multiplication());
 
 //ex4
 
+
+var grade = function (points) {
+    for (points = 0; points <= 10; points++){
+    switch (true) {
+        case (points === 1 || points <= 3): console.log( "Calificativul corespunzator punctajului " + points + " este " + "E");
+            break;
+        case (points === 3 || points <= 6): console.log( "Calificativul corespunzator punctajului " + points + " este " + "D");
+            break;
+        case (points === 7 || points <= 8): console.log( "Calificativul corespunzator punctajului " + points + " este " + "B");
+            break;
+        case (points === 9): console.log( "Calificativul corespunzator punctajului " + points + " este " + "A");
+            break;
+        case (points === 10): console.log( "Calificativul corespunzator punctajului " + points + " este " + "A+");
+            break;
+        default: "absent";
+    }
+}
+};
+
+console.log(grade());
