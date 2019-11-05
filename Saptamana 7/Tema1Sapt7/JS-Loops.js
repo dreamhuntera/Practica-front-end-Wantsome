@@ -65,11 +65,11 @@ console.log(multiplication());
 var grade = function (points) {
     for (points = 0; points <= 10; points++){
     switch (true) {
-        case (points === 1 || points <= 3): console.log( "Calificativul corespunzator punctajului " + points + " este " + "E");
+        case (points === 1 && points <= 3): console.log( "Calificativul corespunzator punctajului " + points + " este " + "E");
             break;
-        case (points === 3 || points <= 6): console.log( "Calificativul corespunzator punctajului " + points + " este " + "D");
+        case (points === 3 && points <= 6): console.log( "Calificativul corespunzator punctajului " + points + " este " + "D");
             break;
-        case (points === 7 || points <= 8): console.log( "Calificativul corespunzator punctajului " + points + " este " + "B");
+        case (points === 7 && points <= 8): console.log( "Calificativul corespunzator punctajului " + points + " este " + "B");
             break;
         case (points === 9): console.log( "Calificativul corespunzator punctajului " + points + " este " + "A");
             break;
